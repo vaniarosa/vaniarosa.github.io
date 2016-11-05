@@ -1,4 +1,4 @@
-# vaniarosa.github.io.
+# vaniarosa.github.io/portfolio.
 <article class="markdown-body entry-content" itemprop="text"><p><strong><a href="https://vaniarosa.github.io/portfolio/">View demo</a></strong></p>
 
 <p>I built my design portfolio with HTML, PHP, Bootstrap, JavaScript/jQuery, Sass, and Gulp. If you're a designer
