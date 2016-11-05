@@ -5,14 +5,10 @@
 <p>This one page features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.</p>
 
 
-<h3><a id="user-content-instructions" class="anchor" href="#instructions" aria-hidden="true"></a>Contact</h3>
-
+<h3>Contact</h3>
 <ol>
-<li><p></p></li>
-
-<pre><code>npm install
-</code></pre></li>
-<li><p>Run the app:</p>
-
+<li><p>https://br.linkedin.com/in/vaniarosa/en</p></li>
+<li><p>https://www.facebook.com/vania.rosa.7374</p></li>
+<li><p>https://lapsevertigo.com</p></li>
 </ol>
 </article>
