@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Freelancer - Webdesign and Developer">
+    <meta name="description" content="Freelancer Web Developer and Designer">
     <meta name="author" content="Vânia Rosa">
 
     <title>Freelancer - Code & Design</title>
@@ -14,13 +14,17 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <!-- Theme CSS MODIFICAR PARA .MIN DEPOIS-->
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/animated-headline-style.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +45,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Freelancer - Code & Design</a>
+                <a class="navbar-brand" href="#page-top">Vânia Rosa</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -73,9 +77,18 @@
                 <div class="col-lg-12">
                     <!--<img class="img-responsive" src="img/profile.jpg" alt="">-->
                     <div class="intro-text">
-                        <span class="name">Freelancer - Code & Design</span>
+
+                        <span class="name">Code & Design</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - User Experience Designer</span>
+                        <div class="cd-intro">
+                      		<h1 class="cd-headline letters type">
+                      			<span class="">Web Developer - User Experience</span>
+                      			<span class="cd-words-wrapper waiting">
+                      				<b class="is-visible">Unicorn </b>
+                      				<b>Designer </b>
+                      			</span>
+                      		</h1>
+                      	</div>
                     </div>
                 </div>
             </div>
@@ -192,8 +205,6 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -241,12 +252,12 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-6">
                         <h3>Location</h3>
                         <p>José W. Koelzer, 182
                             <br>Santa Cruz do Sul, BRA 96845-050</p>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-6">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
@@ -266,10 +277,6 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer - Code & Design</h3>
-                        <p>Freelancer - Code & Design created by <a href="https://vaniarosa.github.io/portfolio/">Vânia Rosa</a>.</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -277,7 +284,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Freelancer - Code & Design 2016
+                        Vânia Rosa - 2016
                     </div>
                 </div>
             </div>
@@ -499,7 +506,7 @@
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://startbootstrap.com">April 2016</a>
                                     </strong>
                                 </li>
                                 <li>Service:
@@ -528,8 +535,12 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
+    <!-- Resource jQuery -->
+    <script src="js/animated-headline-main.js"></script>
+
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+
 
 </body>
 
