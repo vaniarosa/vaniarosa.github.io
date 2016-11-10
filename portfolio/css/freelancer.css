@@ -236,6 +236,13 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
+.info-mail {
+    border: 1px solid white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    color: #181A1C;
+}
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
