@@ -1,5 +1,5 @@
 ## Creator
-Webdesign and Developer Portfolio was created by **[Vânia Rosa](http://vaniarosa.github.io/)**, Owner of [Lapse Vertigo](http://lapsevertigo.com.br/).
+Webdesign and Developer Portfolio was created by **[Vânia Rosa](http://vaniarosa.github.io/)**.
 
 * https://br.linkedin.com/in/vaniarosa/en
 * https://www.facebook.com/vania.rosa.7374
